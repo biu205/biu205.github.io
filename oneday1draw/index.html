@@ -34,25 +34,43 @@
     }
   </style>
 
-<style>
+  <style>
     .my-navbar {
-      background-color: #022e45; /* 你要的顏色 */
+      background-color: #022e45;
+      /* 你要的顏色 */
     }
-  
+
     .my-navbar .nav-link,
     .my-navbar .navbar-brand {
       color: white;
     }
-  
+
     .my-navbar .nav-link:hover {
-      color: #ffcc00; /* 滑過時變色 */
+      color: #ffcc00;
+      /* 滑過時變色 */
     }
   </style>
 
   <style>
-    img.one{width:300px; height:300px;}
-    img.one{border-radius: 300px;}
+    img.one {
+      width: 300px;
+      height: 300px;
+    }
+
+    img.one {
+      border-radius: 300px;
+    }
   </style>
+
+  <style>
+    .carousel-img {
+      width: 100%;
+      height: 550px;
+      object-fit: cover;
+      filter: brightness(80%);
+    }
+  </style>
+
 
 </head>
 
@@ -60,8 +78,8 @@
 <body class="noto-serif-tc-regular">
 
   <!--Navbar-->
-  
-  <nav class="navbar navbar-expand-lg my-navbar" >
+
+  <nav class="navbar navbar-expand-lg my-navbar">
     <div class="container-fluid">
       <!--LOGO-->
       <a class="navbar-brand" href="#"><img src="img/LOGO.jpg" width="80" height="80"></a>
@@ -72,29 +90,45 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Homeworks</a>
+            <a class="nav-link disabled" aria-disabled="true">關於我</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              作品
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="../0304/index.html">0304</a></li>
-              <li><a class="dropdown-item" href="../0311/index.html">0311</a></li>
-              <li><a class="dropdown-item" href="../0318/index.html">0318</a></li>
-              <li><a class="dropdown-item" href="../0325/index.html">0325</a></li>
-              <li><a class="dropdown-item" href="../0408/index.html">0408</a></li>
-              <li><a class="dropdown-item" href="../0415/index.html">0415</a></li>
+              <li><a class="dropdown-item" href="../oneday1draw/index.html">1day1drawdraw</a></li>
+              <li><a class="dropdown-item" href="../canonixy/index.html">canonixy</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
               <li><a class="dropdown-item" href="#">Something else </a></li>
             </ul>
           </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              上課內容
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../0311/index.html">0311</a></li>
+              <li><a class="dropdown-item" href="../0318/index.html">0318</a></li>
+              <li><a class="dropdown-item" href="../0325/index.html">0325</a></li>
+              <li><a class="dropdown-item" href="../0408/index.html">0408</a></li>
+              <li><a class="dropdown-item" href="../0415/index.html">0415</a></li>
+              <li><a class="dropdown-item" href="../0422/index.html">0422</a></li>
+              <li><a class="dropdown-item" href="../0429/index.html">0429</a></li>
+              <li><a class="dropdown-item" href="../0506/index.html">0506</a></li>
+              <li><a class="dropdown-item" href="../0513/index.html">0513</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else </a></li>
+            </ul>
+          </li>
+
           <li class="nav-item">
             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
           </li>
@@ -107,10 +141,25 @@
     </div>
   </nav>
 
+
+
+
+
   <!--content-->
+  
+
+  <div style="padding: 60px; text-align: center; background-color: #eeece8;">
+    <h1 style="color: rgb(109, 81, 44);">1day1drawdraw</h1>
+    <p>
+      一支從寒假開始經營的插畫帳號<br>
+      每天依照自己的心情和想法畫小插畫<br>
+      當成一種紀錄生活的方式<br>
+    </p>
+  </div>
 
   <!-- 卡片區塊 -->
-<div class="container text-center" style="padding: 65px;">
+   <div style="padding: 65px; background-color: #6a8399;">
+  <div class="container text-center">
     <div class="row justify-content-center g-1"> <!-- 小間距 -->
   
       <!-- 卡片 1 -->
@@ -360,13 +409,12 @@
 
   <!--footer-->
   <div>
-    <footer class="text-center text-lg-start be-light text-muted">
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.5);"></div>
-      @2025 copyright:
-      <a class="text-reset fw-bold href=https://www.ntue.edu.tw">嗨</a>
-  </div>
-
-  </footer>
+    <footer class="text-center text-lg-start text-light text-muted" style="background-color:#022e45; width: 100%;">
+      <div class="text-center p-5" style="background-color:#022e45;">
+        <span class="text-white">© 2025 Copyright:</span>
+        <a class="text-reset fw-bold" href="https://www.ntue.edu.tw">嗨</a>
+      </div>
+    </footer>
   </div>
 
 
